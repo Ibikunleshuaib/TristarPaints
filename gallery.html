@@ -62,10 +62,10 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li class="dropdown submenu active">
+                                <li>
                                     <a href="index.html">Home</a>
                                 </li>
-                                <li ><a href="#">Gallery</a></li>
+                                <li class="submenu active"><a href="#">Gallery</a></li>
                                 <li><a href="service.html">services</a></li>
                                 <li><a href="about.html">about us</a></li>
                                 <li><a href="contact.html">contact</a></li>
@@ -941,19 +941,30 @@
             </div>
         </section>
         <!--================End Our Project2 Area =================-->
-        
-         <!--================Subscrib Form Area =================-->
+        <style>
+            .service2_inner .service2_item .service2_item_inner {
+                
+                background-color: #ffcd00;
+                //linear-gradient(to top right, #ffcd00, #f37400) (to top right, #021329, #2051e6)
+                
+            }
+            .subscribe_area{
+               background:  linear-gradient(to top right, #ffcd00, #f37400);
+
+            }
+        </style>
+
+        <!--================Subscrib Form Area =================-->
         <section class="subscribe_area">
             <div class="container">
-                <div class="pull-left">
+                <div class="pull-left" data-aos="fade-up">
                     <h4 style="color:white">Looking for quality and affordable paint products for your next project?</h4>
                 </div>
-                <div class="pull-right">
+                <div class="pull-right" data-aos="fade-up">
                     <a class="get_btn_black" href="contact.html">Contact Us</a>
                 </div>
             </div>
         </section>
-        <!--================End Subscrib Form Area =================-->
         
         <!--================Footer Area =================-->
         <footer class="footer_area">

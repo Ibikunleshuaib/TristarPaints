@@ -58,7 +58,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a class="navbar-brand" href="#"><img src="img/Tristar-logo.png" alt=""><img src="img/Tristar-transparent-logo.png" alt=""></a>
+                            <a class="navbar-brand" href="index.html"><img src="img/Tristar-logo.png" alt=""><img src="img/Tristar-transparent-logo.png" alt=""></a>
                         </div>
 
                         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -94,22 +94,30 @@
         <!--================End Banner Area =================-->
         
         <!--================Blog Details Area =================-->
-        <section class="blog_details_area p_100">
+        <section class="blog_details_area p_100" style="padding-top: 50px; padding-bottom: 100px">
             <div class="container">
                 <div class="row blog_details_inner">
                     <div class="col-md-8">
                         <div class="comment_form_area">
-                            <h3 style="color: #ffcd00">Send us a message</h3>
-                            <form class="contact_us_form row"   id="contactForm" novalidate="novalidate">
+                            <h3 style="color: #ffcd00; margin-top: 0; margin-bottom: 10px;">CONTACT FORM</h3>
+                            <div style="padding-bottom: 10px; "><i>Fields with <span style="color:red"> *</span> are required</i></div>
+                            <form class="contact_us_form row"   id="contactForm">
                                 <div class="form-group col-md-6">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                                    <strong><span > Name <span style="color:red"> *</span>:</span> </strong> <input required="required" type="text" class="form-control" id="name" name="name" placeholder="">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                                    <strong><span>Company:</span></strong><input type="text" class="form-control" id="email" name="email" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <strong><span>Phone:</span></strong><input type="number" class="form-control" id="name" name="name" placeholder="">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <strong><span>Email <span style="color:red">*</span>:</span></strong><input  type="email" class="form-control" id="email" required="required" name="email" placeholder="">
                                 </div>
                                 <div class="form-group col-md-12">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Your message"></textarea>
+                                    <strong><span>Comments & Questions <span style="color:red">*</span>:</span></strong><textarea class="form-control" name="message" id="message" rows="1" placeholder="" required="required"></textarea>
                                 </div>
+
                                 <div class="form-group col-md-12">
                                     <button type="submit" value="submit" class="btn submit_btn form-control">Submit</button>
                                 </div>
@@ -128,17 +136,22 @@
                                 <div class="r_post_inner">
                                     <div class="r_post_item">
                                         
-                                      <span style="padding-right: 10px; font-size: 30px; color: #f37400"><i class="fa fa-home"></i></span> 
-                                      <p style="font-size:20px">  Address:  123A, Victoria Island, Lagos.</p>
+                                      <span style="padding-right: 10px; font-size: 30px; color: #f37400"><i class="fa fa-map-marker"></i></span> 
+                                      <h4 style="font-size:20px">  Km 14, Olorunda Aba Road, Ibadan, Oyo State, Nigeria.</h4>
                                       <br>
 
                                       <span style="padding-right: 10px; font-size: 30px; color: #f37400"><i class="fa fa-phone"></i></span> 
-                                      <p style="font-size:20px"> Phone Number: 0812345678</p>
-
+                                    <strong>
+                                      <ul style="font-size: 17px">
+                                      	<li>08032667194</li>
+                                      	<li>09060001845</li>
+                                      	<li>09058037785</li>
+                                      </ul>
+                                    </strong>
                                     </div>
                                     <div class="r_post_item">
                                         <img src="img/blog/trending-post/t-post-2.jpg" alt="">
-                                        <a href="#"><p style="text-align: center;">We know you deserve the best.</p></a>
+                                        <a href="#"><p style="text-align: center;">...adding value to your assets</p></a>
                                     </div>
                                 </div>
                             </aside>
@@ -157,11 +170,11 @@
                         <div class="col-md-3 col-sm-6">
                             <aside class="f_widget about_widget">
                                 <img style="display: block; margin-right: auto; margin-left: auto;" src="img/Tristar-transparent-logo.png" alt="">
-                                <p>Tristar paint makes quality paint products that meet our client expectations, demands and your creative vision </p>
+                                <p>TriStar paint makes quality paint products that meet our client expectations, demands and your creative vision </p>
                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="https://facebook.com/tristarpaint" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/tristarpaints" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://instagram.com/tristarpaints" target="_blank"><i class="fa fa-instagram"></i></a></li>
                                 </ul>
                             </aside>
                         </div>
@@ -201,7 +214,7 @@
                                             <i class="fa fa-map-marker"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>1234, Lagos, Nigeria</p>
+                                            <p>Km 14, Olorunda Aba Road, Ibadan, Oyo State, Nigeria.</p>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -209,7 +222,9 @@
                                             <i class="fa fa-phone"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>08123456789 </p>
+                                            <p>08032667194 </p>
+                                            <p>09060001845 </p>
+                                            <p>09058037785 </p>
                                         </div>
                                     </div>
                                     <div class="media">
@@ -217,7 +232,7 @@
                                             <i class="fa fa-envelope"></i>
                                         </div>
                                         <div class="media-body">
-                                            <p>tristarpaints@gmail.com</p>
+                                            <p>info@tristarpaint.com</p>
                                         </div>
                                     </div>
                                 </div>
@@ -228,7 +243,7 @@
                                 <div class="f_w_title">
                                     <h3>Quick Links</h3>
                                 </div>
-                                <div class="address_w_inner">
+                                <div class="address_w_inner" style="padding-left: 30px">
                                     <div class="media">
                                         <div class="media-body">
                                             <a href="index.html" style="color: #f37400">Home</a>

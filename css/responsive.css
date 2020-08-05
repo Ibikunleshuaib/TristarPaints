@@ -198,6 +198,13 @@
 	.transparent_menu .main_menu_area .navbar.navbar-default .navbar-header .navbar-brand img  {
 		display: none;
 	}
+    
+    
+    
+    .transparent_menu .main_menu_area .navbar.navbar-default .navbar-header .navbar-brand .new  {
+		display: none;
+	}
+    
 	.transparent_menu .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li a {
 		color: #31353d;
 	}
